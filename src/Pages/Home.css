@@ -1,0 +1,93 @@
+/* Home.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .post {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    margin-bottom: 10px;
+  }
+  
+  .post-scheduled-time {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .post-actions {
+    margin-top: 10px;
+  }
+  
+  .post-action-btn {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .post-stats {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .stat {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .create-post-container {
+    margin-top: 30px;
+  }
+  
+  .create-post-header {
+    margin-bottom: 10px;
+  }
+  
+  .create-post-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .submit-btn {
+    padding: 8px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
